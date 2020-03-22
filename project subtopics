@@ -1,0 +1,31 @@
+
+this project is an undergraduate graduation thesis project for statistics major.
+it keeps track of my study under the following topics
+
+topic1.a - constructing cyclic random variables
+example) suppose some objects behave in a matter such as a < b < c < a, objects such as rock, paper, scissor may be suitable examples.
+borrowing idea from non-transitive dice, A, B, C, s.t. P(A < B) > 1/2, P(B < C) > 1/2, P(C < A) > 1/2,
+a generalization to creating 'n' number of cyclic random variables is discussed.
+* non-transitive dice has face such as
+dice A : (1,1, 5,5, 9,9)
+dice B : (2,2, 6,6, 7,7)
+dice C : (3,3, 4,4, 8,8)
+
+topic1.b - a binary classiffication problem consisting of intransitive structures
+example) think of hands around a clock, it is such that, 1 < 2 < 3 < 4 < ... < 12 < 1 < 2 < 3, likewise consider, modular numeric objects. 
+comeup with a dataset such that
+(x1, x2, result)
+( 2,  3, x1 win)
+( 3,  7, x1 win)
+(12,  1, x2 win)
+...
+that is, x1 > x2 if taking the hand of x2 counterclockwise for less than pi(180 degrees) is enough to meet hand of x1.
+then problem becomes simple binary classification, where data can be easily, systematically, generated for training, and validating.
+utilize well known binary classification method such as logistic regression, random forest, svm, deep learning, and see which one performs well and which one doesnt.
+
+topic2 - a multifactored ranking problem
+example) consider paired comparison data. though it may not be cyclic, the order of the items may not always be strictly transitive or well ordered. suppose comparing models of iphones and androids.
+with data such as iphone1 > iphone2, iphone1 > android1, ... , iphone1 < android3, iphone2 > android1, ... etc
+come up with a system like poset. where the nontransitivity is accounted by a multi ordered structure.
+such as, there may be two underlying factor where the two items are ranked.
+come up with a systematic method to give adequate ranking to the item, by uncovering the underlying number of factors.
