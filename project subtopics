@@ -29,3 +29,4 @@ with data such as iphone1 > iphone2, iphone1 > android1, ... , iphone1 < android
 come up with a system like poset. where the nontransitivity is accounted by a multi ordered structure.
 such as, there may be two underlying factor where the two items are ranked.
 come up with a systematic method to give adequate ranking to the item, by uncovering the underlying number of factors.
+ 
